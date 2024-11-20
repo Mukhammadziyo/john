@@ -1,0 +1,59 @@
+@import "../../css/global.css";
+
+.container {
+  padding-left: 235px;
+  padding-right: 235px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 55px;
+
+  h2 {
+    font-weight: 700;
+    font-size: 4.4rem;
+    line-height: 1.37;
+    color: #21243d;
+  }
+}
+
+.hero-cards-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+.hero-card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  padding-bottom: 29px;
+  border-bottom: 1px solid #e0e0e0;
+
+  h3 {
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1.23;
+    color: #21243d;
+  }
+
+  span {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.43;
+    color: #8695a4;
+
+    time {
+      font-weight: 400;
+      color: #21243d;
+    }
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.43;
+    color: #21243d;
+    width: 682px;
+  }
+}

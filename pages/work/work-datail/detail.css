@@ -1,0 +1,82 @@
+@import "../../../css/global.css";
+
+.container {
+  padding-left: 235px;
+  padding-right: 235px;
+}
+
+.hero {
+  margin-bottom: 5.4rem;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    font-weight: 700;
+    font-size: 3.4rem;
+    line-height: 1.44;
+    color: #21243d;
+    width: 500px;
+    margin-bottom: 3rem;
+  }
+
+  span {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.43;
+    color: #21243d;
+    margin-bottom: 2.3rem;
+
+    time {
+      font-weight: 900;
+      font-size: 1.8rem;
+      line-height: 3.23;
+      color: #ffffff;
+      background-color: #ff7c7c;
+      border-radius: 16px;
+      padding: 0 1rem;
+      margin-right: 1rem;
+    }
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.23;
+    margin-bottom: 4.6rem;
+    color: #000000;
+  }
+}
+
+.heading-container {
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 2;
+    color: #21243d;
+  }
+
+  h3 {
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 3.23;
+    color: #21243d;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.23;
+    margin-bottom: 3rem;
+    color: #000000;
+  }
+
+  img {
+    margin-bottom: 2.7rem;
+  }
+}
